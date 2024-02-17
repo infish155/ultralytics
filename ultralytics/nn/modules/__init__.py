@@ -55,6 +55,9 @@ from .conv import (
     LightConv,
     RepConv,
     SpatialAttention,
+    SE,
+    RFAConv,
+    RFCBAM,
 )
 from .head import OBB, Classify, Detect, Pose, RTDETRDecoder, Segment, WorldDetect
 from .transformer import (
@@ -123,4 +126,8 @@ __all__ = (
     "ImagePoolingAttn",
     "ContrastiveHead",
     "BNContrastiveHead",
+    # 自己加的部分
+    "SE",
+    "RFAConv",
+    "RFCBAM",
 )
